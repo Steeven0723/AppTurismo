@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar Sesion</title>
+    <link rel="stylesheet" href="./css/style_L&R.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="login-box">
+        <h2>Iniciar Sesion</h2>
+        <form action="controlador.php" method="POST">
+            <input type="hidden" name="op" value="1">
+            <div class="user-box">
+                <span></span>
+                <input type="text" id="usuario" name="usuario" required="">
+                <label>Usuario</label>
+            </div>
+            <div class="user-box">
+                <span></span>
+                <input type="password" id="clave" name="clave" required="">
+                <label>Contraseña</label>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" style="color:white">Error en los datos</label>
+
+            </div>
+
+            <a>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <button class="btn" style="background: transparent" type="submit">
+
+                    Iniciar
+                </button>
+            </a>
+
+        </form>
+    </div>
+</body>
+
+</html>
