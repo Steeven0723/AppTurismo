@@ -1,0 +1,89 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Drogerias </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 4</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Disfruta De Nuestras De Drogerias </ion-card-title>
+      <ion-card-subtitle>Aguachica</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-accordion-group>
+        <!-- Drogeria N1 -->
+        <ion-accordion value="Rebaja">
+          <ion-item slot="header" color="light">
+            <ion-thumbnail slot="start">
+              <img
+                alt="Silhouette of mountains"
+                src="../../assets/img/Dro_Rebaja.jpg"
+              />
+            </ion-thumbnail>
+            <ion-label>La Rebaja</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">
+            <ion-content class="container">
+              <h1>Drogeria La Rebaja</h1>
+              <ion-label>Cel: (+57) 605 5650227</ion-label> <br />
+              <ion-label>Direccion: Calee 5 # 16-03</ion-label> <br />
+              <ion-label
+                >Nuestro horario de atención es de Mañana, Tarde y Noche.
+                Disponemos de acceso a discapacitados, prestamos servicio a
+                domicilio.</ion-label
+              >
+            </ion-content>
+          </div>
+        </ion-accordion>
+
+        <!-- Drogeria N2 -->
+        <ion-accordion value="Economía">
+          <ion-item slot="header" color="light">
+            <ion-thumbnail slot="start">
+              <img
+                alt="Silhouette of mountains"
+                src="../../assets/img/Dro_Economia.jpg"
+              />
+            </ion-thumbnail>
+            <ion-label>La Economía</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">
+            <ion-content class="container">
+              <h1>Droguería La Economía</h1>
+              <ion-label>Cel:(+57) 605 5651065</ion-label> <br />
+              <ion-label>Direccion: Calle 5 # 31-73</ion-label>
+            </ion-content>
+          </div>
+        </ion-accordion>
+
+        <!-- Drogeria N3 -->
+        <ion-accordion value="Selecta">
+          <ion-item slot="header" color="light">
+            <ion-thumbnail slot="start">
+              <img
+                alt="Silhouette of mountains"
+                src="../../assets/img/Dro_Selecta.jpeg"
+              />
+            </ion-thumbnail>
+            <ion-label>Selecta</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">
+            <ion-content class="container">
+              <h1>Drogueria Y Perfumeria Selecta</h1>
+              <ion-label>Cel: (+57) 605 5650341</ion-label> <br />
+              <ion-label>Direccion: Calle 5 # 31-77</ion-label>
+            </ion-content>
+          </div>
+        </ion-accordion>
+      </ion-accordion-group>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

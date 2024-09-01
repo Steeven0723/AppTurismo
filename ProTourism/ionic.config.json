@@ -1,0 +1,7 @@
+{
+  "name": "ProTourism",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

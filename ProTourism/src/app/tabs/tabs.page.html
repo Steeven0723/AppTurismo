@@ -1,0 +1,107 @@
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Lugares</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-accordion-group>
+
+      <!-- Alcaldía -->
+      <ion-accordion value="Alcaldia">
+        <ion-item slot="header" color="light">
+          <ion-thumbnail slot="start">
+            <img alt="Silhouette of mountains" src="../../assets/img/Alcaldia_Agua.jpg" />
+          </ion-thumbnail>
+          <ion-label>Alcaldía</ion-label>
+        </ion-item>
+        <div slot="content" class="ion-padding">TELEFONO: 605 565-0086</div>
+        <div slot="content" class="ion-padding">CORREO: contactenos@aguachica-cesar.gov.co</div>
+        <div slot="content" class="ion-padding">DIRECCION: Calle 4 No. 10-33</div>
+        <div slot="content" class="ion-padding">Secretaría de Educación</div>
+        <div slot="content" class="ion-padding">Secretaría de Planeación</div>
+        <div slot="content" class="ion-padding">Secretaría de Tránsito</div>
+      </ion-accordion>
+
+      <!-- Policía -->
+      <ion-accordion value="Policia">
+        <ion-item slot="header" color="light">
+          <ion-thumbnail slot="start">
+            <img alt="Silhouette of mountains" src="../../assets/img/Policia_Agua.jpg" />
+          </ion-thumbnail>
+          <ion-label>Policía</ion-label>
+        </ion-item>
+        <div slot="content" class="ion-padding">TELEFONO: (605) 5659549 - 3163311305</div>
+        <div slot="content" class="ion-padding">CORREO: desan.espri-agu@policia.gov.co</div>
+        <div slot="content" class="ion-padding">DIRECCION: Calle 3 No 33-34</div>
+      </ion-accordion>
+
+      <!-- Bomberos -->
+      <ion-accordion value="Bomberos">
+        <ion-item slot="header" color="light">
+          <ion-thumbnail slot="start">
+            <img alt="Silhouette of mountains" src="../../assets/img/Bomberos_Agua.jpg" />
+          </ion-thumbnail>
+          <ion-label>Bomberos</ion-label>
+        </ion-item>
+        <div slot="content" class="ion-padding">TELEFONO: +57 3228662944</div>
+        <div slot="content" class="ion-padding">CORREO: dnbemergencias@gmail.com</div>
+        <div slot="content" class="ion-padding">DIRECCION: Calle 11 No 11-53</div>
+
+      </ion-accordion>
+
+      <!-- Cámara de Comercio -->
+      <ion-accordion value="Cam">
+        <ion-item slot="header" color="light">
+          <ion-thumbnail slot="start">
+            <img alt="Silhouette of mountains" src="../../assets/img/Camara_Agua.jpg" />
+          </ion-thumbnail>
+          <ion-label>Cám de Comercio</ion-label>
+        </ion-item>
+        <div slot="content" class="ion-padding">TELEFONO: +57 3160233043</div>
+        <div slot="content" class="ion-padding">CORREO: ccaguachica@camaraaguachica.org.co</div>
+        <div slot="content" class="ion-padding">DIRECCION: Carrera 14 No 6-74</div>
+      </ion-accordion>
+
+    </ion-accordion-group>
+  </ion-content>
+</ion-menu>
+
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Menu</ion-title>
+      <ion-button href="subscription" fill="clear" slot="end">Solicitud</ion-button>
+      <ion-badge slot="end" color="danger">1000</ion-badge>
+    </ion-toolbar>
+  </ion-header>
+
+
+<ion-tabs>
+
+  <ion-tab-bar slot="bottom">
+            <ion-tab-button tab="tab1" href="/tabs/tab1">
+              <ion-icon name="fast-food-outline"></ion-icon>
+              <ion-label>Comida</ion-label>
+            </ion-tab-button>
+
+            <ion-tab-button tab="tab2" href="/tabs/tab2">
+              <ion-icon name="bus-outline"></ion-icon>
+              <ion-label>Turismo</ion-label>
+            </ion-tab-button>
+
+            <ion-tab-button tab="tab3" href="/tabs/tab3">
+              <ion-icon name="business-outline"></ion-icon>
+              <ion-label>Hoteles</ion-label>
+            </ion-tab-button>
+
+            <ion-tab-button tab="tab4" href="/tabs/tab4">
+              <ion-icon name="heart-circle-outline"></ion-icon>
+              <ion-label>Droguería</ion-label>
+            </ion-tab-button>
+          </ion-tab-bar>
+
+</ion-tabs>

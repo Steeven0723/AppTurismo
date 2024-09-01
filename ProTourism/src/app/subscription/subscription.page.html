@@ -1,0 +1,83 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Suscripción</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="ion-text-center">
+    <h1>Suscripción</h1>
+
+    <ion-list>
+      <ion-item>
+        <ion-input labelPlacement="floating" type="text" [counter]="true" maxlength="11" required
+          [(ngModel)]="datos.documento">
+          <div slot="label">Documento <ion-text color="danger">*</ion-text>
+          </div>
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input labelPlacement="floating" type="text" [counter]="true" maxlength="32" required
+          [(ngModel)]="datos.nombre">
+          <div slot="label">Nombre <ion-text color="danger">*</ion-text>
+          </div>
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input labelPlacement="floating" type="text" [counter]="true" maxlength="10" required
+          [(ngModel)]="datos.telefono">
+          <div slot="label">Teléfono <ion-text color="danger">*</ion-text>
+          </div>
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input labelPlacement="floating" type="text" [counter]="true" maxlength="50" required
+          [(ngModel)]="datos.comercio">
+          <div slot="label">Nombre del Comercio <ion-text color="danger">*</ion-text>
+          </div>
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input labelPlacement="floating" type="Email" required [(ngModel)]="datos.correo">
+          <div slot="label">Email <ion-text color="danger">*</ion-text>
+          </div>
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-select placeholder="Seleccionar Tipo" required [(ngModel)]="datos.tipo_id">
+          <div slot="label">Tipo <ion-text color="danger">*</ion-text>
+          </div>
+          <ion-select-option value="1">Comida</ion-select-option>
+          <ion-select-option value="2">Turismo</ion-select-option>
+          <ion-select-option value="3">Hoteles</ion-select-option>
+          <ion-select-option value="4">Droguería</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-radio-group [(ngModel)]="datos.plan_id" required>
+        <div slot="label">Plan adquirido<ion-text color="danger">*</ion-text>
+        </div>
+        <ion-item>
+          <ion-radio value="1" justify="end">3 Meses 5.500</ion-radio><br />
+        </ion-item>
+        <ion-item>
+          <ion-radio value="2" justify="end">6 Meses 10.000</ion-radio><br />
+        </ion-item>
+        <ion-item>
+          <ion-radio value="3" justify="end">12 Meses 15.000</ion-radio><br />
+        </ion-item>
+      </ion-radio-group>
+
+      <ion-button round (click)="guardarSuscripcion()" [disabled]=" !isFormValid()">Guardar</ion-button>
+
+    </ion-list>
+
+    <br>
+  </div>
+
+</ion-content>
