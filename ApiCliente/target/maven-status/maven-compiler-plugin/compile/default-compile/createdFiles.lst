@@ -1,0 +1,5 @@
+com\example\ApiCliente\repositorio\ClienteRepositorio.class
+com\example\ApiCliente\servicio\ClienteServicio.class
+com\example\ApiCliente\ApiClienteApplication.class
+com\example\ApiCliente\ServletInitializer.class
+com\example\ApiCliente\controlador\ClienteControl.class
