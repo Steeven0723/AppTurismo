@@ -85,7 +85,7 @@
                      <div class="panel panel-inverse">
                          <!-- begin panel-body -->
                          <div class="panel-body">
-                             <table id="data-table-autofill" class="table  table-bordered table-td-valign-middle" style="color:white">
+                             <table id="data-table-autofill" class="table  table-bordered table-td-valign-middle" style="color:black">
                                  <thead>
                                      <tr>
                                          <th width="1%">Id</th>

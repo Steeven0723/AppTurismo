@@ -67,8 +67,8 @@
 }
 
 body {
-  color: white;
-  background-image: url(../img/Backgrounds_2.jpeg);
+  color: var(--bs-dark);
+  background-color: var(--bs-white);
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);

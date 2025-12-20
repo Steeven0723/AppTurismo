@@ -65,9 +65,9 @@
         scroll-behavior: smooth;
     }
 }
-
+ 
 body {
-    background-image: url(../img/Backgrounds_2.jpeg);
+    background-color: var(--bs-white);
     margin: 0;
     font-family: var(--bs-body-font-family);
     font-size: var(--bs-body-font-size);
@@ -79,7 +79,7 @@ body {
     border-radius: 10px 0 0 10px;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    color: white;
+    color: var(--bs-dark);
 }
 
 .content {

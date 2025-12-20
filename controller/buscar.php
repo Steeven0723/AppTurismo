@@ -18,7 +18,7 @@
 
         if ($resultado) {
     ?>
-            <table id="data-table-autofill" class="table  table-bordered table-td-valign-middle" style="color:white">
+            <table id="data-table-autofill" class="table  table-bordered table-td-valign-middle" style="color:black">
                 <tbody>
                     <?php
                     foreach ($resultado as $fila) {

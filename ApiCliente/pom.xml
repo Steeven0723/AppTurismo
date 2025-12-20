@@ -15,7 +15,7 @@
 	<name>ApiCliente</name>
 	<description>Demo de api para grupo 20</description>
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

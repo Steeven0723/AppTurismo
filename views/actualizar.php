@@ -75,7 +75,7 @@
                 <div class="panel panel-inverse">
                     <!-- begin panel-body -->
 
-                    <table id="data-table-autofill" class="table  table-bordered table-td-valign-middle" style="color:white">
+                    <table id="data-table-autofill" class="table  table-bordered table-td-valign-middle" style="color:black">
 
                         <tbody>
                             <?php
